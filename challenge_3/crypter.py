@@ -4,6 +4,12 @@
 THIS IS A COPY OF MY AWESOME CRYPTER.
 NO TIME TO WRITE A DECRYPTER AT THIS MOMENT.
 HAVE TO MAKE SURE I WRITE DOWN THE TIMESTAMPS!!!
+
+TO DO:
+    - Take current date as key;
+    - XOR every single char from the plain message with every group of two;
+    - Add dot in front, because why not;
+    - Concatenate and print encrypted message;
 """
 
 import sys
@@ -27,5 +33,9 @@ def encrypt(plain_msg):
     return ''.join(enc_msg)
 
 def decrypt(enc_key, enc_msg):
-    plain_msg = ""
     return "NOT READY YET"
+
+if __name__ == "__main__":
+    num_args = len(sys.argv)
+    if (num_args == 2):
+        print encrypt(sys.argv[1])
