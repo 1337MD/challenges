@@ -1,0 +1,15 @@
+#1. 
+Hash: 			529bfc198d60320de2a366fc32b9e938
+Length: 		12 characters;
+Hint:			Part of the password is all over 1337.MD Facebook Page (:
+
+#2.
+Hash:			72c658dbdac67c387959339875b34506
+Length:			5 characters;
+Salt+Pass Len:	17 characters;
+Hint:			Salt is equal to the cracked password from Step #1;
+
+#3.
+Hash:			819fa8d83b5d9b23ef1811c9590a1c62f1c4f5ff14be5ca37763edba00018dc8
+Length:			23 characters;
+Hint:			Password is equal to 17 characters from Step #2 and other 6 characters;
